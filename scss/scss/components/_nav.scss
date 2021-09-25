@@ -6,7 +6,7 @@
 }
 header h2 {
     font-size: 1.2em;
-    text-shadow: 1px 1px ghostwhite;
+    text-shadow: 1px 1px rgba(241, 241, 248, .4);
     transition: .5s ease-in;
     &:hover {
         transform: scale(1.2);

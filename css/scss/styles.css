@@ -7,6 +7,7 @@
   border-radius: 50%;
   margin-right: 1em;
   transition: 0.5s ease-in;
+  border: 1px solid rgba(173, 179, 185, 0.5);
 }
 .profile-photo:hover {
   transform: rotate(-25deg) scale(1.2);
@@ -43,17 +44,26 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.photo-overlay {
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
 .photo-overlay:hover {
   opacity: 1;
 }
 
 .photo:hover img {
   transform: scale(1.2);
+}
+
+.social-link {
+  height: 2.5em;
+  width: 2.5em;
+  display: flex;
+  align-items: center;
+}
+
+.social-link svg {
+  fill: white;
+  height: 2em;
+  width: 2em;
+  color: #d1c4eb;
 }
 
 /* ============================================= */
@@ -87,7 +97,7 @@
 
 header h2 {
   font-size: 1.2em;
-  text-shadow: 1px 1px ghostwhite;
+  text-shadow: 1px 1px rgba(241, 241, 248, 0.4);
   transition: 0.5s ease-in;
 }
 header h2:hover {
@@ -130,11 +140,11 @@ header h2:hover {
   margin-bottom: 1em;
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
-  padding-bottom: 1em;
+  padding: 0 1em 1em;
   background-color: ghostwhite;
 }
 #about p {
-  text-align: center;
+  text-align: left;
 }
 
 #projects {
@@ -527,6 +537,7 @@ header {
   width: 100%;
   z-index: 1;
   background-color: lightgrey;
+  box-shadow: 8px -4px 11px #adb3b9 inset, -8px 4px 11px #adb3b9 inset;
 }
 
 footer {
@@ -545,7 +556,7 @@ li {
 h1 {
   font-size: 1.5em;
   font-weight: 400;
-  text-shadow: 1px 2px lightgrey;
+  text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   transition: 0.5s ease-in;
 }
 h1:hover {
@@ -555,7 +566,7 @@ h1:hover {
 h2 {
   text-align: center;
   font-weight: 400;
-  text-shadow: 1px 2px lightgrey;
+  text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   transition: 0.5s ease-in;
 }
 h2:hover {
