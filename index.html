@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/scss/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -12,10 +12,10 @@
     <title>Gordon Munro Portfolio</title>
 </head>
 <body>
-    <div></div>
+    
         <header>
-            <img src="images/gordon-slack.jpg" alt="profile photo">
-            <h2>Gordon Munro - Front-End Developer</h2>
+            <img src="images/Gordon-profile-crop.jpg" alt="profile photo">
+            <h2>Gordon Munro</h2>
             <i class="fas fa-bars"></i>
             <nav class="dropdown">
                 <ul id="myDropdown" class="dropdown-content">
@@ -27,81 +27,83 @@
             </nav>
         </header>
         
+        
         <section id="about">
             <h1>Hi! I'm Gordon Munro.</h1>
             <p>I'm a Front-End Developer from Vancouver, British Columbia. I'm passionate about coding and love building websites.</p>
         </section>
         
         <main>
-            <section id="projects">
+            <div class="wrapper">
+                <section id="projects">
 
-                <div class="project-photo column-1">
-                    <div class="photo">
-                        <img src="images/web-app-dashboard.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Web App Dashboard</h3>
-                            <p>Description</p>
-                            <a href="https://gordonmunro.github.io/Web-App-Dashboard/" class="button">View Project</a>
+                    <div class="project-photo column-1">
+                        <div class="photo">
+                            <img src="images/web-app-dashboard.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Web App Dashboard</h3>
+                                <p>Description</p>
+                                <a href="https://gordonmunro.github.io/Web-App-Dashboard/" class="button">View Project</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="project-photo column-1">
-                    <div class="photo">
-                        <img src="images/public-api.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Public API Project</h3>
-                            <p>Skills</p>
-                            <a href="https://gordonmunro.github.io/Public-API-Project/" class="button">View Projecy</a>
+                    <div class="project-photo column-1">
+                        <div class="photo">
+                            <img src="images/public-api.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Public API Project</h3>
+                                <p>Skills</p>
+                                <a href="https://gordonmunro.github.io/Public-API-Project/" class="button">View Projecy</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="project-photo column-1">
-                    <div class="photo">
-                        <img src="images/game-show-app.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Gameshow App</h3>
-                            <p>Description</p>
-                            <a href="https://gordonmunro.github.io/Game-Show-Project/" class="button">View Project</a>
+                    <div class="project-photo column-1">
+                        <div class="photo">
+                            <img src="images/game-show-app.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Gameshow App</h3>
+                                <p>Description</p>
+                                <a href="https://gordonmunro.github.io/Game-Show-Project/" class="button">View Project</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="project-photo column-2">
-                    <div class="photo">
-                        <img src="images/interactive-photo-gallery.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Interactive Photo Gallery</h3>
-                            <p>Description</p>
-                            <a href="https://gordonmunro.github.io/Interactive-Photo-Gallery/">View Project</a>
+                    <div class="project-photo column-2">
+                        <div class="photo">
+                            <img src="images/interactive-photo-gallery.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Interactive Photo Gallery</h3>
+                                <p>Description</p>
+                                <a href="https://gordonmunro.github.io/Interactive-Photo-Gallery/">View Project</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="project-photo column-2">
-                    <div class="photo">
-                        <img src="images/online-regisatration-form.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Online Registration Form</h3>
-                            <p>Description</p>
-                            <a href="https://gordonmunro.github.io/Online-Registration-Form/" class="button">View Project</a>
+                    <div class="project-photo column-2">
+                        <div class="photo">
+                            <img src="images/online-regisatration-form.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Online Registration Form</h3>
+                                <p>Description</p>
+                                <a href="https://gordonmunro.github.io/Online-Registration-Form/" class="button">View Project</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="project-photo column-2">
-                    <div class="photo">
-                        <img src="images/web-style-guide.png" alt="" class="project covery">
-                        <div class="photo-overlay">
-                            <h3>Web-Style-Guide</h3>
-                            <p>Project Description</p>
-                            <a href="https://gordonmunro.github.io/Web-Style-Guide/" class="button">View Project</a>
+                    <div class="project-photo column-2">
+                        <div class="photo">
+                            <img src="images/web-style-guide.png" alt="" class="project covery">
+                            <div class="photo-overlay">
+                                <h3>Web-Style-Guide</h3>
+                                <p>Project Description</p>
+                                <a href="https://gordonmunro.github.io/Web-Style-Guide/" class="button">View Project</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
+                </section>
+            </div>
         </main>
 
         <footer>

@@ -5,4 +5,55 @@ header img {
     height: 6em;
     width: 6em;
     border-radius: 50%;
+    margin-right: 1em;
 }
+.project-photo {
+    width: 90vw;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+.project-photo img {
+ 	max-width: 100%;
+}
+.button {
+	color: #4a89ca;
+	width: 70%;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 0;
+	border: 2px solid #4a89ca;
+	border-radius: .5em;
+	margin: auto;
+}
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	display: flex; /* For centering text inside .photo-overlay */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .5);
+}
+.photo-overlay {
+	opacity: 0;
+	transition: opacity .5s;
+}
+.photo-overlay:hover {
+	opacity: 1;
+}
+

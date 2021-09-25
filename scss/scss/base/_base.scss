@@ -12,10 +12,15 @@ header {
     flex-direction: row;
     align-items: center;
     height: 8em;
+    padding: 1.5em;
 }
 a {
     text-decoration: none;
 }
 li {
     list-style: none;
+}
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
 }
