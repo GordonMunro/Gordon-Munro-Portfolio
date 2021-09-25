@@ -6,6 +6,11 @@
 }
 header h2 {
     font-size: 1.2em;
+    text-shadow: 1px 1px ghostwhite;
+    transition: .5s ease-in;
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 /* following dropdown code from https://www.w3schools.com/howto/howto_js_dropdown.asp */
 .dropdown {
