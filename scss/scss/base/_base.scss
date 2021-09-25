@@ -3,4 +3,19 @@
 /* ============================================= */
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8em;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
 }

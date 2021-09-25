@@ -1,6 +1,12 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+header img {
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
@@ -13,9 +19,42 @@
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
+/* following dropdown code from https://www.w3schools.com/howto/howto_js_dropdown.asp */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 1.25em;
+  right: 2em;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  border: 1px solid lightgrey;
+}
+
 /* ============================================= */
 /*             Layout                            */
 /* ============================================= */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 8em;
+}
+
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
@@ -369,6 +408,24 @@ template {
 /* ============================================= */
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
