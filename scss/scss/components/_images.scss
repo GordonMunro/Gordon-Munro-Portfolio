@@ -10,29 +10,15 @@ header img {
 .project-photo {
     width: 90vw;
     text-align: center;
-    margin-bottom: 1em;
 }
 .photo {
 	position: relative;
-	line-height: 0;
-	margin-bottom: 2em;
 	overflow: hidden;
 }
 .project-photo img {
  	max-width: 100%;
 }
-.button {
-	color: #4a89ca;
-	width: 70%;
-	font-weight: 700;
-	display: block;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px 0;
-	border: 2px solid #4a89ca;
-	border-radius: .5em;
-	margin: auto;
-}
+
 .photo-overlay {
 	color: #fff;
 	position: absolute;
@@ -40,8 +26,7 @@ header img {
 	right: 0;
 	bottom: 0; 
 	left: 0;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 1.5em;
 
 	display: flex; /* For centering text inside .photo-overlay */
 	flex-direction: column;
