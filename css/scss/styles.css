@@ -55,6 +55,17 @@ header img {
   height: 8em;
 }
 
+#project {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 1em;
+}
+
+.project-photo {
+  width: 90vw;
+  text-align: center;
+}
+
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
