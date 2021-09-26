@@ -18,6 +18,11 @@
   text-align: center;
   border: 1px solid lightgrey;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 0.5em;
 }
 
 .photo {
@@ -57,6 +62,10 @@
   transform: scale(1.2);
 }
 
+.photo-form {
+  height: 60%;
+}
+
 .social-link {
   height: 2.5em;
   width: 2.5em;
@@ -91,6 +100,15 @@
   padding: 10px 0;
   border: 2px solid #4a89ca;
   border-radius: 0.5em;
+  margin: 1em;
+}
+
+.photo-overlay h3 {
+  border: 1px solid lavender;
+  padding: 0.5em 1em;
+  background-color: lightskyblue;
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 /* ============================================= */
@@ -143,17 +161,12 @@ header h2:hover {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.5em;
+  margin-top: 1em;
   padding: 0.5em;
 }
 #about p {
   text-align: center;
   line-height: 1.2em;
-}
-
-#projects {
-  display: grid;
-  grid-template-columns: 100%;
-  gap: 1em;
 }
 
 .wrapper {
@@ -174,11 +187,18 @@ header h2:hover {
   background-color: rgba(243, 243, 253, 0.4);
 }
 
+.project-photo p {
+  margin-top: 1em;
+}
+
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
 @media (min-width: 768px) {
   #projects {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1em;
     grid-template-columns: 50%;
   }
 
@@ -551,6 +571,7 @@ template {
 
 body {
   padding-top: 5.4em;
+  background-color: azure;
 }
 
 header {
@@ -564,7 +585,7 @@ header {
   width: 100%;
   z-index: 1;
   color: white;
-  background-color: rgba(24, 115, 233, 0.8);
+  background-color: lightsteelblue;
 }
 
 footer {

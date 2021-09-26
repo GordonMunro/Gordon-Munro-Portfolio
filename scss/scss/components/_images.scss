@@ -18,6 +18,11 @@
     text-align: center;
 	border: 1px solid lightgrey;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	margin-bottom: .5em;
 }
 .photo {
 	position: relative;
@@ -52,6 +57,9 @@
 }
 .photo:hover img {
 	transform: scale(1.2);
+}
+.photo-form {
+	height: 60%;
 }
 // Social Media SVGS
 .social-link {

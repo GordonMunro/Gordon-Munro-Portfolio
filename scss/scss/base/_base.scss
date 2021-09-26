@@ -9,6 +9,7 @@
 }
 body {
     padding-top: 5.4em;
+    background-color: azure;
 }
 header {
     display: flex;
@@ -21,7 +22,7 @@ header {
     width: 100%;
     z-index: 1;
     color: white;
-    background-color: rgba(24, 115, 233, .8);
+    background-color: lightsteelblue;
     // box-shadow: 8px -4px 11px rgb(173, 179, 185) inset,
     //             -8px 4px 11px rgb(173, 179, 185) inset;
 }

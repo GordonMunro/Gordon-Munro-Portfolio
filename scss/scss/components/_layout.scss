@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: .5em;
-    
+    margin-top: 1em;
     // border-bottom: 1px solid lightgrey;
     // border-top: 1px solid lightgrey;
     padding: .5em;
@@ -17,11 +17,7 @@
     }
 
 }
-#projects {
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 1em;
-}
+
 .wrapper {
     margin: 0 auto;
     width: 90%;
@@ -36,4 +32,7 @@
     border-radius: 5px;
     padding: .5em;
     background-color: rgba(243, 243, 253, .4);
+}
+.project-photo p {
+    margin-top: 1em;
 }
