@@ -23,7 +23,9 @@
 	align-items: center;
 	background-color: white;
 	margin-bottom: .5em;
+	box-shadow: 2px 2px 8px lightgrey inset;
 }
+
 .photo {
 	position: relative;
 	overflow: hidden;
@@ -58,9 +60,9 @@
 .photo:hover img {
 	transform: scale(1.2);
 }
-.photo-form {
-	height: 60%;
-}
+// .photo-form {
+// 	height: 60%;
+// }
 // Social Media SVGS
 .social-link {
     height: 2.5em;

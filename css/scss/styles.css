@@ -23,6 +23,7 @@
   align-items: center;
   background-color: white;
   margin-bottom: 0.5em;
+  box-shadow: 2px 2px 8px lightgrey inset;
 }
 
 .photo {
@@ -60,10 +61,6 @@
 
 .photo:hover img {
   transform: scale(1.2);
-}
-
-.photo-form {
-  height: 60%;
 }
 
 .social-link {
