@@ -10,17 +10,22 @@
   border: 1px solid rgba(173, 179, 185, 0.5);
 }
 .profile-photo:hover {
-  transform: rotate(-25deg) scale(1.2);
+  transform: rotate(-15deg) scale(1.2);
 }
 
 .project-photo {
   width: 90vw;
   text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 
 .photo {
   position: relative;
   overflow: hidden;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  height: 100%;
 }
 
 .project-photo img {
@@ -63,7 +68,7 @@
   fill: white;
   height: 2em;
   width: 2em;
-  color: #d1c4eb;
+  color: lightslategrey;
 }
 
 /* ============================================= */
@@ -137,14 +142,12 @@ header h2:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
-  border-bottom: 1px solid lightgrey;
-  border-top: 1px solid lightgrey;
-  padding: 0 1em 1em;
-  background-color: ghostwhite;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
 }
 #about p {
   text-align: center;
+  line-height: 1.2em;
 }
 
 #projects {
@@ -164,9 +167,33 @@ header h2:hover {
   align-items: center;
 }
 
+.card {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: rgba(243, 243, 253, 0.4);
+}
+
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
+@media (min-width: 768px) {
+  #projects {
+    grid-template-columns: 50%;
+  }
+
+  .column-1 {
+    grid-column: 1/span 1;
+  }
+
+  .column-2 {
+    grid-column: 2/span 1;
+  }
+
+  .project-photo {
+    width: 45vw;
+  }
+}
 /* ============================================= */
 /*              Utilities Imports                */
 /* ============================================= */
@@ -516,14 +543,14 @@ template {
 /*              Base styles                      */
 /* ============================================= */
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  padding-top: 5em;
+  padding-top: 5.4em;
 }
 
 header {
@@ -536,13 +563,12 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: lightgrey;
-  box-shadow: 8px -4px 11px #adb3b9 inset, -8px 4px 11px #adb3b9 inset;
+  color: white;
+  background-color: rgba(24, 115, 233, 0.8);
 }
 
 footer {
   height: 5em;
-  background-color: ghostwhite;
 }
 
 a {
@@ -556,6 +582,9 @@ li {
 h1 {
   font-size: 1.5em;
   font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.3em;
   text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   transition: 0.5s ease-in;
 }
@@ -565,12 +594,16 @@ h1:hover {
 
 h2 {
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   transition: 0.5s ease-in;
 }
 h2:hover {
   transform: scale(1.2);
+}
+
+.projects-h2 {
+  margin-bottom: 0.8em;
 }
 
 /*# sourceMappingURL=styles.css.map */

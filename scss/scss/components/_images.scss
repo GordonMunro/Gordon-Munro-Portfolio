@@ -9,17 +9,22 @@
     transition: .5s ease-in;
 	border: 1px solid rgba(173, 179, 185, .5);
     &:hover {
-        transform: rotate(-25deg) scale(1.2);
+        transform: rotate(-15deg) scale(1.2);
     }
 }
 
 .project-photo {
     width: 90vw;
     text-align: center;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
 }
 .photo {
 	position: relative;
 	overflow: hidden;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	height: 100%;
 }
 .project-photo img {
  	max-width: 100%;
@@ -59,5 +64,5 @@
     fill: white;
     height: 2em;
     width: 2em;
-	color: rgb(209, 196, 235);
+	color: lightslategrey;
 }

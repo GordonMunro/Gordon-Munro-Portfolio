@@ -2,9 +2,16 @@
 /*              Media Queries                           */
 /* ============================================= */
 @media (min-width: 768px) {
-    
-    // .photo-overlay {
-    //     opacity: 0;
-    //     transition: opacity .5s;
-    // }
+    #projects {
+        grid-template-columns: 50%;
+    }
+    .column-1 {
+        grid-column: 1 / span 1;
+    }
+    .column-2 {
+        grid-column: 2 / span 1;
+    }
+    .project-photo {
+        width: 45vw;
+    }
 }
