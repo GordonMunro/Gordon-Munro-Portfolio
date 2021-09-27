@@ -17,6 +17,11 @@
     .project-photo {
         width: 45vw;
     }
+    header {
+        flex-direction: row;
+        padding: 1em;
+        height: 5.5em;
+    }
     .dropdown-content {
         display: flex;
         justify-content: space-around;
@@ -29,5 +34,8 @@
     }
     .menu-icon {
     display: none;
+    }
+    .profile-div {
+        margin-left: 0;
     }
 }
