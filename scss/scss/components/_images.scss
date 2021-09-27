@@ -47,7 +47,7 @@
 	bottom: 0; 
 	left: 0;
 	padding: 1.5em;
-
+	
 	display: flex; /* For centering text inside .photo-overlay */
 	flex-direction: column;
 	justify-content: center;
@@ -82,6 +82,7 @@
 	width: 2em;
 	color: white;
 	margin-left: auto;
+	margin-right: -4rem;
 }
 .icon-div {
 	display: flex;
@@ -89,7 +90,7 @@
     height: 4.5em;
     align-items: center;
     width: 4.5em;
-	margin-bottom: .5em;
+	margin: .5em .4em;
 }
 .html-icon {
 	color: orangered;

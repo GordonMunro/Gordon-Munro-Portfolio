@@ -82,6 +82,7 @@
   width: 2em;
   color: white;
   margin-left: auto;
+  margin-right: -4rem;
 }
 
 .icon-div {
@@ -90,7 +91,7 @@
   height: 4.5em;
   align-items: center;
   width: 4.5em;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0.4em;
 }
 
 .html-icon {
@@ -139,6 +140,7 @@
 }
 .button:hover {
   opacity: 1;
+  box-shadow: 1px 2px #dad6d6;
 }
 
 .photo-overlay h3 {
@@ -165,32 +167,19 @@ header h2:hover {
   transform: scale(1.2);
 }
 
-/* following dropdown code from https://www.w3schools.com/howto/howto_js_dropdown.asp */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 300px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  top: 1.25em;
-  right: 2em;
+  justify-content: space-around;
+}
+.dropdown-content li {
+  margin: 0 1em;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: flex;
-  border: 1px solid lightgrey;
+.dropdown {
+  margin-left: auto;
 }
 
+/* following dropdown code from https://www.w3schools.com/howto/howto_js_dropdown.asp */
 /* ============================================= */
 /*             Layout                            */
 /* ============================================= */
@@ -259,6 +248,22 @@ header h2:hover {
 
   .project-photo {
     width: 45vw;
+  }
+
+  .dropdown-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .dropdown-content li {
+    margin: 0 1em;
+  }
+
+  .dropdown {
+    margin-left: auto;
+  }
+
+  .menu-icon {
+    display: none;
   }
 }
 /* ============================================= */
@@ -638,10 +643,14 @@ header {
 footer {
   margin-top: 0.5rem;
   height: 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 li {

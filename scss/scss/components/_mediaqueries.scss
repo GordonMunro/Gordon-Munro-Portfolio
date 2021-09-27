@@ -17,4 +17,17 @@
     .project-photo {
         width: 45vw;
     }
+    .dropdown-content {
+        display: flex;
+        justify-content: space-around;
+        li {
+          margin: 0 1em;
+        }
+    }
+    .dropdown {
+    margin-left: auto;
+    }
+    .menu-icon {
+    display: none;
+    }
 }
