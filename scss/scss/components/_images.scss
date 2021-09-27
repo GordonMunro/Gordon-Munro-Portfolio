@@ -48,7 +48,6 @@
 	bottom: 0; 
 	left: 0;
 	padding: 1.5em;
-	
 	display: flex; /* For centering text inside .photo-overlay */
 	flex-direction: column;
 	justify-content: center;
@@ -63,14 +62,13 @@
 	transform: scale(1.2);
 }
 .game-photo {
-	height: 62%;
+	height: 57%;
+	width: 100%;
 }
 .guide-photo {
-	height: 57.5%;
+	height: 63%;
 }
-// .photo-form {
-// 	height: 60%;
-// }
+
 // Social Media SVGS
 .social-link {
     height: 2.5em;
@@ -124,3 +122,22 @@
 .boot-icon {
 	color: #563d7c;
 }
+@keyframes grow {
+	0% {
+	  transform: scale(0);
+	}
+	30% {
+	  transform: scale(1.1);
+	}
+	60% {
+	  transform: scale(0.9);
+	}
+  }
+  
+  /* --------------------------
+	SVG Styles
+  --------------------------- */
+// svg:hover {
+// 	animation: grow 1s ease-out backwards;
+//   }
+  

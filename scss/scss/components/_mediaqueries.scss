@@ -15,7 +15,8 @@
         grid-column: 2 / span 1;
     }
     .project-photo {
-        width: 45vw;
+        width: 100%;
+        max-width: 350px;
     }
     header {
         flex-direction: row;

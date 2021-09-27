@@ -12,3 +12,11 @@ menuClose.addEventListener('click', () => {
     menuClose.classList.remove("show");
     menu.classList.remove("hidden");
 });
+
+let svg = document.getElementsByTagName('svg');
+
+for (let i = 0; i < svg.length; i++) {
+    const element = svg[i];
+    element.addEventListener('mouseover', () => {
+    element.style.animation = "grow 1s ease-out backwards";
+})};
