@@ -20,3 +20,12 @@ for (let i = 0; i < svg.length; i++) {
     element.addEventListener('mouseover', () => {
     element.style.animation = "grow 1s ease-out backwards";
 })};
+
+
+let lis = document.getElementsByTagName('li');
+for (let i = 0; i < lis.length; i++) {
+    const li = lis[i];
+    li.addEventListener('mouseover', () => {
+        li.classList.add('li-focus');
+    });
+}

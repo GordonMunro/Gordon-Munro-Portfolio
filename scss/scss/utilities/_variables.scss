@@ -1,3 +1,18 @@
 /* ============================================= */
 /*              Variables                        */
 /* ============================================= */
+// Colors
+$white: #fff;
+$color-primary: #58e1c1;
+$color-secondary: #777;
+$color-bg: #51ddfc;
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warn: #fd7856;
+
+$color-bg-lighten: lighten($color-bg, 15%);
+$color-error-lighten: lighten($color-error, 15%);
+$color-info-lighten: lighten($color-info, 15%);
+$color-success-lighten: lighten($color-success, 15%);
+$color-warn-lighten: lighten($color-warn, 15%);

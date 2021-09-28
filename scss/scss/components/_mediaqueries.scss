@@ -18,6 +18,9 @@
         width: 100%;
         max-width: 350px;
     }
+    .photo {
+        height: 300px;
+    }
     header {
         flex-direction: row;
         padding: 1em;
@@ -26,6 +29,8 @@
     .dropdown-content {
         display: flex;
         justify-content: space-around;
+        padding: 1em;
+        align-items: center;
         li {
           margin: 0 1em;
         }
