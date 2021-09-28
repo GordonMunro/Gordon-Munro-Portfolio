@@ -49,7 +49,7 @@
 	bottom: 0; 
 	left: 0;
 	padding: 1.5em;
-	display: flex; /* For centering text inside .photo-overlay */
+	display: flex; 
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -62,13 +62,6 @@
 .photo:hover img {
 	transform: scale(1.2);
 }
-// .game-photo {
-// 	height: 57%;
-// 	width: 100%;
-// }
-// .guide-photo {
-// 	height: 63%;
-// }
 
 // Social Media SVGS
 .social-link {
@@ -135,10 +128,4 @@
 	}
   }
   
-  /* --------------------------
-	SVG Styles
-  --------------------------- */
-// svg:hover {
-// 	animation: grow 1s ease-out backwards;
-//   }
   

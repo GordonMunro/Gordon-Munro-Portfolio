@@ -15,16 +15,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // height: 5.5em;
-    // padding: 1em;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
     color: white;
     background-color: lightsteelblue;
-    // box-shadow: 8px -4px 11px rgb(173, 179, 185) inset,
-    //             -8px 4px 11px rgb(173, 179, 185) inset;
 }
 footer {
     margin-top: .5rem;
