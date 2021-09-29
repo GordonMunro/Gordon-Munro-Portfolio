@@ -14,7 +14,20 @@ menuClose.addEventListener('click', () => {
     menuClose.classList.remove("show");
     menu.classList.remove("hidden");
 });
-
+// Highlight menu function
+let lis = document.getElementsByTagName('li');
+for (let i = 0; i < lis.length; i++) {
+    const li = lis[i];
+    li.parentNode.addEventListener('mouseover', () => {
+        li.parentNode.classList.add('li-focus');
+    });
+}
+for (let i = 0; i < lis.length; i++) {
+    const li = lis[i];
+    li.parentNode.addEventListener('mouseout', () => {
+        li.parentNode.classList.remove('li-focus');
+    });
+}
 // Product Description/Photo Display
 
 const para = document.querySelectorAll('.project-photo p');
@@ -40,18 +53,12 @@ label.forEach(h3 => {
     });
 
 // SVG Animation Trigger
-let svg = document.getElementsByTagName('svg');
+let svgs = document.getElementsByTagName('svg');
 
-for (let i = 0; i < svg.length; i++) {
-    const element = svg[i];
-    element.addEventListener('mouseover', () => {
-    element.style.animation = "grow 1s ease-out backwards";
+for (let i = 0; i < svgs.length; i++) {
+    const svg = svgs[i];
+    svg.addEventListener('mouseover', () => {
+        svg.style.animation = "grow 1s ease-out backwards";
 })};
 
-let lis = document.getElementsByTagName('li');
-for (let i = 0; i < lis.length; i++) {
-    const li = lis[i];
-    li.addEventListener('mouseover', () => {
-        li.parentNode.classList.add('li-focus');
-    });
-}
+

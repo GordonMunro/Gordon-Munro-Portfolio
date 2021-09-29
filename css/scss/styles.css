@@ -489,6 +489,10 @@ h2 {
   color: lightslategrey;
 }
 
+.animation {
+  animation: "grow 1s ease-out backwards";
+}
+
 .menu-icon {
   display: block;
   height: 2em;
