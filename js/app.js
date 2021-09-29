@@ -1,3 +1,5 @@
+// Open and Close Menu Function for Mobile
+
 const menu = document.querySelector('.menu-icon');
 const menuDropdown = document.querySelector('.dropdown-toggle');
 const menuClose = document.querySelector('.close-icon');
@@ -12,6 +14,8 @@ menuClose.addEventListener('click', () => {
     menuClose.classList.remove("show");
     menu.classList.remove("hidden");
 });
+
+// Product Description/Photo Display
 
 const para = document.querySelectorAll('.project-photo p');
 const photo = document.getElementsByClassName('photo');
@@ -35,6 +39,7 @@ label.forEach(h3 => {
     });
     });
 
+// SVG Animation Trigger
 let svg = document.getElementsByTagName('svg');
 
 for (let i = 0; i < svg.length; i++) {

@@ -475,10 +475,6 @@ h2 {
   align-items: center;
 }
 
-.photo-overlay:hover {
-  opacity: 1;
-}
-
 .social-link {
   height: 2.5em;
   width: 2.5em;
