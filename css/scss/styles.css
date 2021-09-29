@@ -602,7 +602,6 @@ h2 {
   background-color: lightskyblue;
   border-radius: 5px;
   box-shadow: 1px 1px #dad6d6;
-  padding: 0.5rem;
 }
 
 /* ============================================= */
@@ -627,6 +626,10 @@ header h2:hover {
 }
 .dropdown-content li {
   margin: 0 1em;
+}
+
+a:hover {
+  color: black;
 }
 
 .dropdown-toggle {
@@ -690,6 +693,7 @@ header h2:hover {
 .project-photo p {
   padding: 1em 1em 0;
   margin-bottom: auto;
+  display: none;
 }
 
 .skills {
@@ -749,9 +753,6 @@ header h2:hover {
     justify-content: space-around;
     padding: 1em;
     align-items: center;
-  }
-  .dropdown-content li {
-    margin: 0 1em;
   }
 
   .dropdown {

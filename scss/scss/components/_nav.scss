@@ -19,7 +19,9 @@ header h2 {
     margin: 0 1em;
   }
 }
-
+a:hover {
+  color: black;
+}
 .dropdown-toggle {
   display: none;
   width: 100vw;
