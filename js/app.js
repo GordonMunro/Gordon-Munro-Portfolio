@@ -30,7 +30,7 @@ const reverseDisplay = (h3) => {
     h3.parentNode.parentNode.nextElementSibling.style.display = "none";
 }
 label.forEach(h3 => {
-    h3.parentNode.parentNode.addEventListener('mouseleave', () => {
+    h3.addEventListener('mouseleave', () => {
         reverseDisplay(h3);
     });
     });

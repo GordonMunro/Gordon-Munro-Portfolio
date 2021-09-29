@@ -442,6 +442,7 @@ h2 {
   align-items: center;
   background-color: ghostwhite;
   margin-bottom: 0.5em;
+  cursor: pointer;
   box-shadow: 2px 2px 8px lightgrey inset, 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -582,6 +583,7 @@ h2 {
 
 .photo-overlay h3 {
   border: 1px solid lavender;
+  cursor: pointer;
   background-color: lightskyblue;
   border-radius: 5px;
   box-shadow: 1px 2px #dad6d6;
