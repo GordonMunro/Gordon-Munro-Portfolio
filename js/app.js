@@ -26,7 +26,7 @@ const display = (h3) => {  h3.parentNode.parentNode.style.display = "none";
 }
 label.forEach(h3 => {
 h3.parentNode.addEventListener('mouseover', () => {
-    setTimeout(display(h3), 3000);
+    display(h3);
 });
 });
 const reverseDisplay = (h3) => {
