@@ -21,7 +21,7 @@ const display = (h3) => {  h3.parentNode.parentNode.style.display = "none";
                            h3.parentNode.parentNode.nextElementSibling.style.display = "block";
 }
 label.forEach(h3 => {
-h3.addEventListener('mouseover', () => {
+h3.parentNode.addEventListener('mouseover', () => {
     setTimeout(display(h3), 3000);
 });
 });
@@ -30,7 +30,7 @@ const reverseDisplay = (h3) => {
     h3.parentNode.parentNode.nextElementSibling.style.display = "none";
 }
 label.forEach(h3 => {
-    h3.addEventListener('mouseleave', () => {
+    h3.parentNode.parentNode.addEventListener('mouseleave', () => {
         reverseDisplay(h3);
     });
     });
