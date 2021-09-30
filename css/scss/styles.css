@@ -426,7 +426,7 @@ h2 {
   border-radius: 50%;
   transition: 0.5s ease-in;
   border: 1px solid rgba(173, 179, 185, 0.5);
-  margin-right: 1em;
+  margin-right: 0.8em;
 }
 .profile-photo:hover {
   transform: rotate(-15deg) scale(1.2);
@@ -711,7 +711,7 @@ a:hover {
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
-@media (max-width: 360px) {
+@media (max-width: 350px) {
   .profile-photo {
     margin-right: 0;
   }

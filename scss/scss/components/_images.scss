@@ -7,7 +7,7 @@
     border-radius: 50%;
     transition: .5s ease-in;
 	border: 1px solid rgba(173, 179, 185, .5);
-	margin-right: 1em;
+	margin-right: .8em;
     &:hover {
         transform: rotate(-15deg) scale(1.2);
     }
@@ -56,11 +56,6 @@
 	align-items: center;
 	
 }
-
-// .photo-overlay:hover {
-// 	opacity: 1;
-// }
-
 
 // Social Media SVGS
 .social-link {
