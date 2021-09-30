@@ -663,6 +663,7 @@ a:hover {
 #about p {
   text-align: center;
   line-height: 1.2em;
+  max-width: 1085px;
 }
 
 .wrapper {
