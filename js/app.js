@@ -53,7 +53,7 @@ label.forEach(h3 => {
     });
 
 // SVG Animation Trigger
-let svgs = document.getElementsByTagName('svg');
+let svgs = document.getElementsByClassName('svg-anima');
 
 for (let i = 0; i < svgs.length; i++) {
     const svg = svgs[i];
