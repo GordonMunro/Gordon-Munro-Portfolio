@@ -367,7 +367,7 @@ header {
   width: 100%;
   z-index: 1;
   color: white;
-  background-color: lightsteelblue;
+  background-color: #6385b1;
 }
 
 footer {
@@ -404,7 +404,6 @@ h1:hover {
 h2 {
   text-align: center;
   font-weight: 700;
-  text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   transition: 0.5s ease-in;
 }
 
@@ -412,7 +411,8 @@ h2 {
   margin: 1em 0;
   color: white;
   border-radius: 5px;
-  background-color: #f8a596;
+  background-color: #ec745f;
+  text-shadow: 1px 2px rgba(218, 214, 214, 0.4);
   padding: 0.5em;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -424,7 +424,6 @@ h2 {
   height: 4em;
   width: 4em;
   border-radius: 50%;
-  margin-right: 1em;
   transition: 0.5s ease-in;
   border: 1px solid rgba(173, 179, 185, 0.5);
 }
@@ -606,7 +605,7 @@ h2 {
 }
 
 header h2 {
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-shadow: 2px 1px rgba(241, 241, 248, 0.4);
   transition: 0.5s ease-in;
 }
@@ -620,6 +619,8 @@ header h2:hover {
 }
 .dropdown-content li {
   margin: 0 1em;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 a:hover {
@@ -629,7 +630,7 @@ a:hover {
 .dropdown-toggle {
   display: none;
   width: 100vw;
-  background-color: lightsteelblue;
+  background-color: #6385b1;
   justify-content: space-around;
   border: 1px solid white;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -638,6 +639,8 @@ a:hover {
   padding: 1em;
   text-align: center;
   border: 1px solid white;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 .show {
@@ -725,6 +728,10 @@ a:hover {
 
   .column-2 {
     grid-column: 2/span 1;
+  }
+
+  .profile-photo {
+    margin-right: 1em;
   }
 
   .project-photo {

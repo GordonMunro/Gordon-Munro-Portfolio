@@ -20,7 +20,7 @@ header {
     width: 100%;
     z-index: 1;
     color: white;
-    background-color: lightsteelblue;
+    background-color: rgb(99, 133, 177);
 }
 footer {
     margin-top: .5rem;
@@ -52,15 +52,14 @@ h1 {
 h2 {
     text-align: center;
     font-weight: 700;
-    text-shadow: 1px 2px rgba(218, 214, 214, .4);
     transition: .5s ease-in;
 }
 .projects-h2 {
     margin: 1em 0;
     color: white;
     border-radius: 5px;
-    background-color: rgb(248, 165, 150);
-    // rgba(124, 183, 252, .5)
+    background-color: rgb(236, 116, 95);
+    text-shadow: 1px 2px rgba(218, 214, 214, .4);
     padding: .5em;
     box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
 }
