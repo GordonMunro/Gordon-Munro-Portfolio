@@ -7,6 +7,7 @@
     border-radius: 50%;
     transition: .5s ease-in;
 	border: 1px solid rgba(173, 179, 185, .5);
+	margin-right: 1em;
     &:hover {
         transform: rotate(-15deg) scale(1.2);
     }

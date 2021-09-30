@@ -426,6 +426,7 @@ h2 {
   border-radius: 50%;
   transition: 0.5s ease-in;
   border: 1px solid rgba(173, 179, 185, 0.5);
+  margin-right: 1em;
 }
 .profile-photo:hover {
   transform: rotate(-15deg) scale(1.2);
@@ -609,9 +610,6 @@ header h2 {
   text-shadow: 2px 1px rgba(241, 241, 248, 0.4);
   transition: 0.5s ease-in;
 }
-header h2:hover {
-  transform: scale(1.2);
-}
 
 .dropdown-content {
   display: none;
@@ -714,6 +712,11 @@ a:hover {
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
+@media (max-width: 360px) {
+  .profile-photo {
+    margin-right: 0;
+  }
+}
 @media (min-width: 768px) {
   #projects {
     display: grid;

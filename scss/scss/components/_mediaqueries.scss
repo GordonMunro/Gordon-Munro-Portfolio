@@ -1,6 +1,11 @@
 /* ============================================= */
 /*              Media Queries                           */
 /* ============================================= */
+@media (max-width: 360px) {
+    .profile-photo {
+        margin-right: 0;
+    }
+}
 @media (min-width: 768px) {
     #projects {
     display: grid;
