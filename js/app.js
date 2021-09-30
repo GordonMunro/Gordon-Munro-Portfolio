@@ -15,7 +15,7 @@ link.addEventListener('click', () => {
     menuClose.classList.remove("show");
     menu.classList.remove("hidden");
 });})
-menuDropdown.addEventListener('click', () => {
+menuClose.addEventListener('click', () => {
     menuDropdown.classList.remove("show");
     menuClose.classList.remove("show");
     menu.classList.remove("hidden");
