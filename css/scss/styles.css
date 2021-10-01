@@ -353,6 +353,10 @@ template {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding-top: 5.4em;
   background-color: azure;
@@ -547,6 +551,10 @@ h2 {
     transform: scale(0.9);
   }
 }
+.svg-trigger {
+  animation: grow 1s ease-out backwards;
+}
+
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
