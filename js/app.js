@@ -34,7 +34,7 @@ for (let i = 0; i < lis.length; i++) {
         li.parentNode.classList.remove('li-focus');
     });
 }
-// Product Description/Photo Display
+// Project Description/Photo Display
 
 const para = document.querySelectorAll('.project-photo p');
 const photo = document.getElementsByClassName('photo');
