@@ -16,7 +16,7 @@
 .project-photo {
     // width: 90vw;
     text-align: center;
-	border: 1px solid lightgrey;
+	@include border;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -43,7 +43,7 @@
 }
 
 .photo-overlay {
-	color: #fff;
+	color: $white;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 .social-link svg {
-    fill: white;
+    fill: $white;
     height: 2em;
     width: 2em;
 	color: lightslategrey;
@@ -75,7 +75,7 @@
 	display: block;
 	height: 2em;
 	width: 2em;
-	color: white;
+	color: $white;
 	margin-left: auto;
 	margin-right: -4rem;
 }
@@ -83,7 +83,7 @@
 	display: none;
 	height: 2em;
 	width: 2em;
-	color: white;
+	color: $white;
 	margin-left: auto;
 	margin-right: -4rem;
 }

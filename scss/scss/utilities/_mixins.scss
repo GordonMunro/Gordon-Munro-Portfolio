@@ -2,5 +2,11 @@
 /*              Mixins                           */
 /* ============================================= */
 @mixin text-shadow {
-    text-shadow: 1px 2px rgba(218, 214, 214, .4);
+    text-shadow: 1px 2px $color-shadow-lighten;
+}
+@mixin box-shadow {
+    box-shadow: 1px 1px $color-shadow;
+}
+@mixin border {
+    border: 1px solid $color-border;
 }

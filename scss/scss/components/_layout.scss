@@ -26,7 +26,7 @@
     align-items: center;
 }
 .card {
-    border: 1px solid lightgrey;
+    @include border;
     border-radius: 5px;
     padding: .5em;
     background-color: rgba(243, 243, 253, .4);
