@@ -26,12 +26,12 @@ a:hover {
   width: 100vw;
   background-color: rgb(99, 133, 177);
   justify-content: space-around;
-  border: 1px solid white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  @include dropdown-border;
+  @include box-shadow2;
   li {
     padding: 1em;
     text-align: center;
-    border: 1px solid white;
+    @include dropdown-border;
     font-size: 1.3em;
     font-weight: 700;
   }

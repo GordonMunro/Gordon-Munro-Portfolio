@@ -455,7 +455,6 @@ h2 {
 .photo {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(230, 221, 221, 0.1);
   border-radius: 10px 10px 0 0;
   height: 100%;
   width: 100%;
@@ -558,9 +557,6 @@ h2 {
 }
 
 /* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 .button {
@@ -638,13 +634,13 @@ a:hover {
   width: 100vw;
   background-color: #6385b1;
   justify-content: space-around;
-  border: 1px solid white;
+  border: 1px solid #fff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .dropdown-toggle li {
   padding: 1em;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #fff;
   font-size: 1.3em;
   font-weight: 700;
 }

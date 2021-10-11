@@ -19,7 +19,7 @@
 	}
 }
 .photo-overlay h3 {
-	border: 1px solid lavender;
+	@include basic-border(lavender);
     cursor: pointer;
     background-color: rgb(22, 137, 209);
     border-radius: 5px;
@@ -34,7 +34,7 @@
 	padding: .5em 1em;
 }
 .li-focus {
-	border: 1px solid lightgrey;
+	@include basic-border($color-border);
     background-color: lightskyblue;
     border-radius: 5px;
 	@include box-shadow;

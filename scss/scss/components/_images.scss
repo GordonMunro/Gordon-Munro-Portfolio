@@ -6,7 +6,7 @@
     width: 4em;
     border-radius: 50%;
     transition: .5s ease-in;
-	border: 1px solid rgba(173, 179, 185, .5);
+	@include basic-border(rgba(173, 179, 185, .5));
 	margin-right: .8em;
     &:hover {
         transform: rotate(-15deg) scale(1.2);
@@ -24,14 +24,13 @@
 	background-color: ghostwhite;
 	margin-bottom: .5em;
 	cursor: pointer;
-	box-shadow: 2px 2px 8px lightgrey inset,
-				0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 8px $color-border inset,
+				0px 8px 16px 0px $color-box-shadow;
 }
 
 .photo {
 	position: relative;
 	overflow: hidden;
-	border: 1px solid rgba(230, 221, 221, .1);
 	border-radius: 10px 10px 0 0;
 	height: 100%;
 	width: 100%;
@@ -66,23 +65,20 @@
 }
 .social-link svg {
     fill: $white;
-    height: 2em;
-    width: 2em;
+    @include icon-hw;
 	color: lightslategrey;
 }
 
 .menu-icon {
 	display: block;
-	height: 2em;
-	width: 2em;
+	@include icon-hw;
 	color: $white;
 	margin-left: auto;
 	margin-right: -4rem;
 }
 .close-icon {
 	display: none;
-	height: 2em;
-	width: 2em;
+	@include icon-hw;
 	color: $white;
 	margin-left: auto;
 	margin-right: -4rem;
