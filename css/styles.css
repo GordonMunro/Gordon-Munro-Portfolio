@@ -541,6 +541,10 @@ h2 {
   color: #563d7c;
 }
 
+.shopify-icon {
+  color: #95BF47;
+}
+
 @keyframes grow {
   0% {
     transform: scale(0);
